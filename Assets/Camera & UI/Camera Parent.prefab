@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 124863718513821908}
   - component: {fileID: 81037508612247128}
   - component: {fileID: 114836466143602998}
+  - component: {fileID: 114602016646240884}
   m_Layer: 9
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -52,8 +53,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1033495608097976}
-  m_LocalRotation: {x: -0.43478486, y: 0.32429892, z: -0.17144507, w: -0.8224348}
-  m_LocalPosition: {x: 2.297626, y: 6.8261824, z: -3.159421}
+  m_LocalRotation: {x: -0.0002897706, y: 0.93995094, z: -0.34130847, w: -0.0008302941}
+  m_LocalPosition: {x: 1.8590386, y: 7.3224063, z: 6.7741127}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4012139512640158}
@@ -120,6 +121,21 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1033495608097976}
   m_Enabled: 1
+--- !u!114 &114602016646240884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1033495608097976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff92752898bb71c459c5a2cf1b219404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkCursor: {fileID: 2800000, guid: 81c26735046a1874ba21f5e21579e1e0, type: 3}
+  enemyCursor: {fileID: 2800000, guid: 3e8106d608e0a5d439c4fccec6d8503c, type: 3}
+  unknownCursor: {fileID: 2800000, guid: e8eb161a39584f9449343a7710f55afe, type: 3}
+  cursorHotspot: {x: 0, y: 0}
 --- !u!114 &114728078386440296
 MonoBehaviour:
   m_ObjectHideFlags: 1
